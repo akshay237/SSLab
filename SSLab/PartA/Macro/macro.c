@@ -42,5 +42,7 @@ void main()
   }
   fprintf(f2,"%s\t%s\t%s\n",label,opcode,operand);
   printf("Output file generated as output.txt and Deftab as deftab.txt\n");
+  fclose(f1);
+  fclose(f2);
 }
    
